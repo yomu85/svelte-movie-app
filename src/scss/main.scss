@@ -1,0 +1,42 @@
+$color--black:#0E111B;
+$color--black-90: rgba($color--black, .9);
+$color--black-50: rgba($color--black, .5);
+
+$color--white: #FFF;
+$color--white-60: rgba($color--white, .6);
+$color--white-50: rgba($color--white, .5);
+$color--white-30: rgba($color--white, .3);
+$color--white-10: rgba($color--white, .1);
+$color--white-5: rgba($color--white, .05);
+
+$color--primary: #FDC000;
+$color--area: #1C212E;
+
+$tablet: "all and (max-width: 1200px)";
+$mobile: "all and (max-width: 720px)";
+
+.container {
+  max-width: 1120px;
+  margin:0 auto;
+  padding: 40px 0 0;
+  position:relative;
+  @media #{$tablet} {
+    padding: 40px 40px 0;
+  }
+  @media #{$mobile} {
+    padding: 40px 20px 0;
+  }
+}
+
+//reset.css 정보
+// a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,
+// em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,main,mark,menu,
+// nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,
+// time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+// article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}
+// [hidden]{display:none}
+// body{line-height:1}
+// menu,ol,ul{list-style:none}
+// blockquote,q{quotes:none}
+// blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+// table{border-collapse:collapse;border-spacing:0}
